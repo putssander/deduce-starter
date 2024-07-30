@@ -13,7 +13,7 @@ services:
      # - NB_UID=1000  # Replace with your UID if necessary, WSL2?
      # - NB_GID=100  # Replace with your GID if necessary, WSL2?
     user: root
-    restart: always
+    restart: no     # https://docs.docker.com/config/containers/start-containers-automatically/
 
 volumes:
   data:
