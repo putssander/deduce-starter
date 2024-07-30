@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  jupyter-scipy:
+    image: quay.io/jupyter/scipy-notebook:2024-05-27
+    ports:
+      - "10000:8888"
+    volumes:
+      - ./data:/home/jovyan/work
+    environment:
+      - GRANT_SUDO=yes
+      - JUPYTER_ENABLE_LAB=yes
+     # - NB_UID=1000  # Replace with your UID if necessary, WSL2?
+     # - NB_GID=100  # Replace with your GID if necessary, WSL2?
+    user: root
+    restart: always
+
+volumes:
+  data:
+  
