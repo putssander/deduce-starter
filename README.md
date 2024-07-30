@@ -9,7 +9,7 @@ DEDUCE Starter is a tool designed to help non-developers get started with the DE
    Download and install Docker Desktop from [Docker's official website](https://www.docker.com/products/docker-desktop/).
 
 2. **Clone or Download the Repository**  
-   Clone this repository or download it to your local machine.
+   Clone this repository or [download](https://github.com/putssander/deduce-starter/archive/refs/heads/main.zip) it to your local machine.
 
 3. **Start the Application**  
    Open your terminal, navigate to the directory containing the repository, and start the application by running the command:
